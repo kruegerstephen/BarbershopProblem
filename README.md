@@ -15,10 +15,15 @@ barber and the customers.
 
 
 To make the problem a little more concrete, I added the following information:
+
 • Customer threads should invoke a function named getHairCut.
+
 • If a customer thread arrives when the shop is full, it can invoke balk,
 which does not return.
+
 • The barber thread should invoke cutHair.
+
 • When the barber invokes cutHair there should be exactly one thread
 invoking getHairCut concurrently.
+
 Write a solution that guarantees these constraints.
