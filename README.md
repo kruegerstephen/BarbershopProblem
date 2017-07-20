@@ -1,6 +1,6 @@
 # BarbershopProblem
 
-#From the Little Book of Semaphores
+From the Little Book of Semaphores:
 
 The original barbershop problem was proposed by Dijkstra. A variation of it
 appears in Silberschatz and Galvin’s Operating Systems Concepts [10].
